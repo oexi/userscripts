@@ -2,8 +2,9 @@
 // @name         Drag Scroll Toggle
 // @name:zh-CN   滚动条拖动开关
 // @namespace    https://github.com/oexi/userscripts
-// @version      2.1.0
+// @version      2.1.1
 // @author       oexi
+// @license      AGPL-3.0-or-later
 // @description  Adds a small translucent toggle next to the page scrollbar. Click it, then move the mouse up/down to scroll: the farther from the toggle, the faster; holding still keeps a constant speed. Click anywhere (or the toggle again) to stop.
 // @description:zh-CN  在页面滚动条旁加一个半透明开关。点一下后上下移动鼠标即可滚动：离开关越远越快，鼠标停住时匀速滚动。点页面任意处或再点开关即关闭。
 // @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iMTgiIHk9IjQiIHdpZHRoPSIyOCIgaGVpZ2h0PSI1NiIgcng9IjE0IiBmaWxsPSIjMEE4NEZGIi8+PHBhdGggZD0iTTI0IDI0bDgtOCA4IDhNMjQgNDBsOCA4IDgtOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==
@@ -17,6 +18,15 @@
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
+
+/*
+ * Copyright (C) 2026 oexi
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU Affero General Public License as published by the Free Software Foundation, either
+ * version 3 of the License, or (at your option) any later version. See the LICENSE file.
+ */
 
 /*
  * 用法

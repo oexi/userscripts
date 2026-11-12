@@ -8,6 +8,7 @@
 [![@grant none](https://img.shields.io/badge/%40grant-none-2EA44F)](#drag-scroll-toggle)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-2EA44F)](#drag-scroll-toggle)
 [![Tested on Chrome](https://img.shields.io/badge/tested%20on-Chrome-4285F4?logo=googlechrome&logoColor=white)](#compatibility)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-8A2BE2)](LICENSE)
 
 </div>
 
@@ -116,7 +117,14 @@ With the defaults, a cursor 50 px away scrolls at about 200 px/s, 100 px at abou
 drag-scroll-toggle/
 ├── drag-scroll-toggle.user.js   the script
 └── assets/                      images used in this README
+LICENSE                          GNU AGPL v3
 ```
+
+## License
+
+Copyright © 2026 oexi
+
+Licensed under the [GNU Affero General Public License v3.0 or later](LICENSE) (`AGPL-3.0-or-later`). You may use, modify and redistribute these scripts, but modified versions you distribute or make available to others must be released under the same license with their source code.
 
 <div align="center">
 <sub>Found a bug or have an idea? <a href="https://github.com/oexi/userscripts/issues">Open an issue</a>.</sub>
